@@ -24,6 +24,11 @@ import static org.apache.flink.streaming.api.TimeCharacteristic.EventTime;
  * @Auther: sunjx
  * @Date: 2018/12/5 0005 11:11
  * @Description:
+ *
+ * sunjx.demo.random.CalcRandomAvg
+ *
+ * --input-topic 'random' --output-topic 'random_out' --bootstrap.servers 'localhost:9092' --zookeeper.connect 'localhost:2181' --group.id 'test'
+ *
  */
 @Slf4j
 public class CalcRandomAvg {
